@@ -1,0 +1,7 @@
+// membuat database web_course
+create web_course;
+use web_course;
+create table course (id int, name varchar(30), thumbnail blob,id_author varchar(10), duration time, description text, primary key (id));
+insert into course (id,name,thumbnail,id_author,duration,description)
+-> values
+-> (1, "Joker", "php.jpg", "AUTHOR00001", 
