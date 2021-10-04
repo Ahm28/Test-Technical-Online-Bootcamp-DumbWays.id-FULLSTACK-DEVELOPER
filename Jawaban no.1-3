@@ -1,0 +1,13 @@
+1. Javascript
+
+function duplicated(char){
+  unik = '';
+  for (const i of char){
+    if(unik.includes(i) == false){
+      unik += i;
+    }
+  }
+  return unik;
+}
+
+console.log(duplicated("alagcgcdodol"));
